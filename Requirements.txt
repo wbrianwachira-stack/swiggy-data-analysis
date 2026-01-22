@@ -1,0 +1,37 @@
+SWIGGY SALES ANALYSIS - PROJECT REQUIREMENTS SPECIFICATION
+
+1. PROJECT OVERVIEW
+The objective of this project is to perform a comprehensive data analysis of Swiggy’s sales performance to evaluate operational health and consumer behavior trends.
+
+2. DATA SCOPE
+- Dataset Size: 197,430 rows.
+- Period: January 2025 to August 2025.
+- Fields: State, City, Order Date, Restaurant Name, Location, Category, Dish Name, Price (INR).
+
+3. KEY PERFORMANCE INDICATORS (KPIs)
+The analysis must calculate and display the following high-level metrics:
+- Total Sales: Overall revenue generated from food orders.
+- Total Orders: The absolute count of food orders received.
+- Average Order Value (AOV): The average revenue generated per order.
+- Average Rating: The mean customer satisfaction level across all restaurants.
+- Ratings Count: Total number of customer reviews provided.
+
+4. VISUALIZATION REQUIREMENTS (CHART BRD)
+The project must include the following visual representations:
+- Monthly Sales Trend: To monitor revenue fluctuations month-by-month.
+- Daily Sales Trend: To highlight order variations across days of the week.
+- Weekly Trend Analysis: To identify consistency or peak periods.
+- Sales by Food Type: A comparison of revenue contribution between Veg and Non-Veg.
+- Sales by State: A map-based visualization of revenue distribution.
+- Top 5 Cities: A ranking of the leading cities contributing to total revenue.
+- Quarterly Performance Summary: A combined view of Sales, Ratings, and Orders by Quarter.
+
+5. TECHNICAL STACK
+- Language: Python
+- Libraries: Pandas (Data Handling), NumPy (Numerical Analysis), Matplotlib/Seaborn (Static Visualization), Plotly Express (Interactive Charts).
+- Environment: Jupyter Notebook.
+
+6. DELIVERABLES
+- Cleaned and processed dataset.
+- Interactive Python Notebook (.ipynb) with documented code.
+- Stakeholder Presentation (PDF/PPT) summarizing insights.
